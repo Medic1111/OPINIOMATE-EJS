@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs') %>
+<main class="main">
+
+ <section class="section post-sec">
+   <div class="post-header">
+    <h2 class="subtitle">Welcome <%- currentUser %> </h2>
+    <form action="/logout" method="post">
+    <button type="submit" class="log-out" href="/">Log Out</button>
+  </form>
+</div>
+
+    <h1 class="topic"><%= topic %></h1>
+
+    <ul class="post-list">
+
+      <% usersWithPost.forEach((user)=>{ %>
+        <p class="who-p"><%= user.alias %></p>
+        <li class="post-li"><%=user.post%></li>
+      <% })  %>
+
+
+    </ul>
+    <form class="post-form" action="/createPost" method="post">
+        <input name="postInput" class="post-input" type="text">
+    <button  type="submit" class="log-out post-btn" href="/">Opinionate</button>
+  </form>
+ </section>
+
+</main>
+
+<%- include('./partials/footer.ejs')%>
+</html>

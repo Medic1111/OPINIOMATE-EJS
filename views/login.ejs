@@ -1,0 +1,18 @@
+<%- include('./partials/header.ejs') %>
+<main class="main">
+
+ <section class="section">
+   <h2 class="title">Log In</h2>
+ <form method="post" action="/login" class="form">
+   <input placeholder="Email" name="username" id="email" class="input" type="email">
+   <input placeholder="Password" name="password" id="password" class="input" type="password">
+    <div class="link-box">
+    <button type="submit" class="link link-btn" >Log in</button>
+  </div>
+</form>
+ </section>
+
+</main>
+
+<%- include('./partials/footer.ejs')%>
+</html>

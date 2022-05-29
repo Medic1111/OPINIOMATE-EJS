@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+<main class="main">
+
+ <section class="section">
+   <h2 class="title">Register</h2>
+ <form method="post" action="/register" class="form">
+  <input placeholder="What should we call you?" name="alias" id="alias" class="input" type="text">
+   <input placeholder="Email" name="username" id="email" class="input" type="email">
+   <input placeholder="Password" name="password" id="password" class="input" type="password">
+    <div class="link-box">
+    <button type="submit" class="link link-btn" >Register</button>
+  </div>
+</form>
+ </section>
+
+</main>
+
+<%- include('./partials/footer.ejs')%>
+</html>
