@@ -9,10 +9,14 @@
 - Root will require registration and login
 - MongoDB-Atlas for Database
 - Express Session for cookies and session
-- Passport for Encryption, hash, salting
+- Passport for Encryption, hash, salting, authentications
 - Only those authenticated will see posts page
 
 ---
+
+[TECH]:
+
+- EJS, PASSPORT, THIRD-PARTY-API, EXPRESS-SESSION
 
 # PLAN OF ACTION:
 
