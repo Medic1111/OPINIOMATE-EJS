@@ -16,7 +16,22 @@
 
 [TECH]:
 
-- EJS, PASSPORT, THIRD-PARTY-API, EXPRESS-SESSION
+- NodeJS, Express, EJS, PASSPORT, THIRD-PARTY-API, EXPRESS-SESSION, MONGODB
+
+# START
+
+- Download project and open it on your favorite IDE
+
+- On the terminal, run: npm init
+
+- Once dependencies are downloaded, run the command: node index.js
+
+- Alternatively, if nodemon is installed, run: nodemon index.js
+
+[TESTING_CREDENTIALS]:
+
+Username: test@test.com
+Password: test
 
 # PLAN OF ACTION:
 

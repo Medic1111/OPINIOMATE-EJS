@@ -16,14 +16,16 @@ let topic = "TEST TOPIC";
 const getTopic = () => {
   newsapi.v2
     .topHeadlines({
-      q: "latest",
+      q: "new",
       category: "politics",
       language: "en",
       country: "us",
     })
     .then((response) => {
       topic = response.articles[0].title;
-    });
+    })
+    .catch((err) => console.log(err));
+
   console.log("getting topic");
 };
 
