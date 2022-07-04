@@ -1,5 +1,13 @@
 # PROJECT
 
+[Live link](https://opiniomate.herokuapp.com/)
+
+![Image of main page](./public/IMGs/main.png)
+
+Backend project that allows a registered user to make a single comment on a daily news heading updated every 24 hours
+
+## THE IDEA:
+
 - Create a Opinion platform
 - Random topic generated daily
 - User will be able to type a single opinion on the topic
@@ -14,24 +22,30 @@
 
 ---
 
-[TECH]:
+## TECH:
 
-- NodeJS, Express, EJS, PASSPORT, THIRD-PARTY-API, EXPRESS-SESSION, MONGODB
+1. NodeJS
+2. Express
+3. EJS
+4. PASSPORT
+5. THIRD-PARTY-NEWS-API
+6. EXPRESS-SESSION
+7. MONGODB
 
-# START
+## START
 
-- Download project and open it on your favorite IDE
+1. Download project and open it on your favorite IDE
 
-- On the terminal, run: npm init
+2. On the terminal, run: `npm install`
 
-- Once dependencies are downloaded, run the command: node index.js
+3. Once dependencies are downloaded, run the command: `node index.js`
 
-- Alternatively, if nodemon is installed, run: nodemon index.js
+4. Alternatively, if nodemon is installed, run: `nodemon index.js`
 
-[TESTING_CREDENTIALS]:
+### TESTING CREDENTIALS:
 
-Username: test@test.com
-Password: test
+- Username: test@test.com
+- Password: test
 
 # PLAN OF ACTION:
 
