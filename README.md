@@ -47,25 +47,25 @@ Backend project that allows a registered user to make a single comment on a dail
 - Username: test@test.com
 - Password: test
 
-# PLAN OF ACTION:
+### PLAN OF ACTION:
 
-# STEP ONE: ROOT(HOME)
+### STEP ONE: ROOT(HOME)
 
 - At root, a welcome, log in button, and register button will be display.
 - Register button will redirect to Register Route
 - Log in button will redirect to Login Route
 
-# REGISTER
+### REGISTER
 
 - If successful, redirect to Posts
 - Else, Redirect to Register
 
-# LOG IN
+### LOG IN
 
 - If Successfull, redirect to Posts
 - Else, redirect to Log In
 
-# SESSION OVER (Closing Browsing Session or LOGOUT)
+### SESSION OVER (Closing Browsing Session or LOGOUT)
 
 - If Session Over Redirect to Log In
 - If LOGOUT Redirect to ROOT (Home)
